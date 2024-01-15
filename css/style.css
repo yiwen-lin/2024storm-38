@@ -11240,6 +11240,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   text-align: center;
   line-height: 1.5;
 }
+.port-h6 {
+  color:#999;
+}
 
 footer h4 {
   font-size: 14px;
