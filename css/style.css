@@ -1035,7 +1035,7 @@ support for no js
 	z-index:1;
 }
 .header-transporent-bg-black{
-  background:#303236;
+  background:#fff;
 }
 
 /* #FEATURES 1 #NEW
@@ -2598,14 +2598,12 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   background-position: 50% 0px;
 }
 .sm-img-bg-fullscr {
+  background-image : url(../images/sea-big.jpg);
   background-position: 50% 0px;
   background-size:cover;
-  
   width: 100%;
   display: block;	
   position: relative;
-  background-size: cover;
-     
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
@@ -2661,6 +2659,11 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   .port-filter a {
     width:40%;
   }
+  .sm-img-bg-fullscr {
+    background-image : url(../images/sea-big-mb.jpg);
+    background-position: 50% 0px;
+    background-size:cover;
+   }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -3824,8 +3827,9 @@ header.affix .logo {
 	transition: all .4s ease 0s;
 }
 header.affix  .logo-2, .header.affix.no-transparent .logo-2 {
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top:8px;
+	padding-bottom:12px;
+  padding-left: 20px;
 	-webkit-transition: all .4s ease 0s;
 	-o-transition: all .4s ease 0s;
 	transition: all .4s ease 0s;
