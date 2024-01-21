@@ -179,6 +179,11 @@
                         <a href="#report"><div class="main-menu-title">相關報導</div></a>
                       </li> -->
 
+                      <!-- MENU ITEM -->
+                      <li data-toggle="collapse" data-target="#main-menu .navbar-collapse">
+                        <a href="#sign-up"><div class="main-menu-title">線上報名</div></a>
+                      </li>
+
                     </ul>
               
                   </nav>
@@ -763,14 +768,14 @@
         </div> -->
 
         				<!-- GOOGLE MAP & CONTACT FORM -->
-                <div class="page-section ">
+                <div class="page-section" id="sign-up">
                   <div class="container-fluid">
                     <div class="row">
                     
                       <div class="col-md-6">
                         <div class="row">                        
                         <!-- <div data-latitude="37.792888" data-longitude="-122.404041" id="google-map"></div> -->
-                        <div id="">
+                        <div class="google-map">
                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7437871338643!2d121.52419257584819!3d25.042767637937533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a984ce1dc7fd%3A0x48fe3fb8cdc96adf!2zMTAw5Y-w5YyX5biC5Lit5q2j5Y2A5p2t5bee5Y2X6Lev5LiA5q61MTXomZ8!5e0!3m2!1szh-TW!2stw!4v1705484243206!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         </div>
@@ -780,48 +785,27 @@
                         <div class="contact-form-cont">
                           <!-- TITLE -->
                           <div class="mb-40">
-                            <h2 class="section-title">CONTACT <span class="bold">US</span></h2>
+                            <h2 class="section-title">敬邀 <span class="bold">蒞臨指教</span></h2>
                           </div>
                                         
                           <!-- CONTACT FORM -->
                           <div class="">
-                            <form id="contact-form" action="php/contact-form.php" method="POST">
                             
                               <div class="row">
                                 <div class="col-md-12 mb-30">
-                                  <!-- <label>Your name *</label> -->
-                                  <input type="text" value="" data-msg-required="Please enter your name" maxlength="100" class="controled" name="name" id="name" placeholder="NAME" required>
+                                <p>誠摯邀請您出席國際婦女節慶祝活動，共同見證 WEconomy－我們的女力經濟的躍升歷程。</p>  
+                                <p><span class="bold">活動時間：113年3月8日（三）10:00</span><br>
+                                  <span class="bold">活動地點：糧政大樓7樓（台北市杭州南路一段15號7樓）</span></p>  
+                                  <h5>財團法人婦女權益促進發展基金會<br>
+                                    聯絡人：莊淳惠　　電話：02-2321-2100 #123</h5>                            
                                 </div>
                               </div>
-                              
-                              <div class="row">    
-                                <div class="col-md-12 mb-30">
-                                  <!-- <label>Your email address *</label> -->
-                                  <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="email" placeholder="EMAIL" required>
-                                  </div>
-                              </div>
-                          
-                              <div class="row">
-                                <div class="col-md-12 mb-40">
-                                  <!-- <label>Message *</label> -->
-                                  <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="MESSAGE" required></textarea>
-                                </div>
-                              </div>
-                              
                               <div class="row">
                                 <div class="col-md-12 text-center-xxs">
-                                  <input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
+                                  <a href="" class="button medium gray" target="_blank">線上報名</a>
                                 </div>
                               </div>
-                              
-                            </form>	
-                            <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
-                              <strong>Success!</strong> Your message has been sent to us.
-                            </div>
-                          
-                            <div class="alert alert-danger hidden animated shake" id="contactError">
-                              <strong>Error!</strong> There was an error sending your message.
-                            </div>
+
                           </div>
                         </div>
                       </div>
