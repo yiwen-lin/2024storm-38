@@ -2581,7 +2581,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 /* #GMAPS 1 #NEW
 =====================================================*/
 #google-map, .google-map iframe {
-  height: 625px;
+  height: 400px;
   position: relative;
   background-color: #eee !important;
   z-index: 1;
@@ -11251,6 +11251,10 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 .port-h6 {
   color:#999;
+}
+
+#sign-up h3 {
+  margin-top:10px;
 }
 
 footer h4 {
