@@ -11257,6 +11257,22 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   margin-top:10px;
 }
 
+.iframe1,
+.iframe2 {
+  display:flex;
+  justify-content: center;  
+}
+
+.iframe1 iframe {
+  height: 800px;
+  width: 100%;
+}
+
+.iframe2 iframe {
+  width: 800px;
+  height: 650px;
+}
+
 footer h4 {
   font-size: 14px;
   font-weight: 400;
