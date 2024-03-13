@@ -2283,6 +2283,8 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   line-height:36px;
   font-weight:100;
   color:#f1f1f1;
+  background-image: url(../images/video-img.png);
+  background-size: contain;
 }
 .video-ads-a a:hover{
   color:#a5a5a5;
