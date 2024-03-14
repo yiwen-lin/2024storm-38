@@ -11275,6 +11275,11 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   height: 800px;
 }
 
+#photo {
+  background: linear-gradient(to top, rgb(244 232 50) 0%, rgb(249 244 155) 51%, rgba(229, 229, 229, 0) 100%); 
+  
+}
+
 footer h4 {
   font-size: 14px;
   font-weight: 400;
