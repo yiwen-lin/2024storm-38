@@ -2331,7 +2331,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 .post-prev-title h3{
   margin:0;
 	font-family: roboto, source-han-sans-traditional,sans-serif;
-  font-size:16px;
+  font-size:18px;
   line-height:26px;
   font-weight:600;
 }
@@ -2365,7 +2365,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 .post-prev-info{
   margin-bottom:14px;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 .slash-divider{
@@ -4810,7 +4810,7 @@ blockquote.custom-blockquote:before {
 /* #RELATED POSTS #NEW
 ================================================== */
 .related-posts .post-prev-title h3 {
-  font-size:14px;
+  font-size:18px;
   line-height:25px;
 }
 .related-posts  .post-prev-img {
