@@ -2304,6 +2304,10 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   .video-ads-text-cont {
     font-size:28px;
     line-height:28px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .video-ads-bg, .work-proc-1-bg {
     background-attachment:scroll;
