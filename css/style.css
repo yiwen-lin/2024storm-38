@@ -11251,7 +11251,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 #about {
   background: linear-gradient(to top, rgba(45,210,247,1) 0%,rgba(139,220,238,0) 51%,rgba(229,229,229,0) 100%); 
 }
-#about .about-title {
+.about-title {
   text-align: center;
   line-height: 1.5;
 }
