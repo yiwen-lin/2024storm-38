@@ -11284,6 +11284,39 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   
 }
 
+#podcast {
+  background-color:rgb(244 232 50);
+}
+.podcast-img {
+  width: 160px;
+  height: auto;
+  display:block;
+}
+#podcast .icon img {
+  width: 20px;
+  display:inline-block;
+  margin-right: 10px;
+}
+#podcast .icon span {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px){
+  .podcast-block {
+    margin-top: 40px;
+    display: flex;
+  /* 水平置中 */
+  justify-content: center;    
+  /* 垂直置中 */
+  align-items: center;    
+  }
+  .podcast-img {
+    width: 160px;
+    margin-right: 30px;
+  }
+}
+
+
 footer h4 {
   font-size: 14px;
   font-weight: 400;
